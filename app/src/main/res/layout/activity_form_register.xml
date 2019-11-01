@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".FormRegister">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_biodata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biodata"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_label_nama_lengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Nama Lengkap"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_nama_lengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Nama Lengkap"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_jk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Jenis Kelamin"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_jk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Jenis Kelamin"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Alamat"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Alamat"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_no_telp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="No Telp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_no_telp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="No Telp"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_daftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="DAFTAR" />
+    </LinearLayout>
+</RelativeLayout>
